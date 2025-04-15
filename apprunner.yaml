@@ -1,9 +1,11 @@
 version: 1.0
-runtime: nodejs
-runtimeVersion: 16
+runtime: nodejs20
 build:
   commands:
-    - npm install
-    - npm run build
-start:
+    build:
+      - npm install
+      - npm run build
+run:
   command: npm start
+  network:
+    port: 8080
