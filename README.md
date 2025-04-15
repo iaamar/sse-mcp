@@ -7,7 +7,8 @@ This project is a simple command-line tool that fetches a random joke from the C
 
 1. Clone this repository.
 2. Install the necessary dependencies by running `npm install`.
-3. Run the project with `node index.js`.
+3. Build the project by running `npm run build`.
+4. Run the project with `npm start`.
 
 ## Usage
 
