@@ -1,6 +1,6 @@
 version: 1.0
 runtime: nodejs
-runtimeVersion: 18
+runtimeVersion: 16
 build:
   commands:
     - npm install
